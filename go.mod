@@ -1,4 +1,4 @@
-module github.com/handball01/tako
+module github.com/handball0/tako
 
 go 1.24
 
