@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/handball01/tako/console"
+	"github.com/handball0/tako/console"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"

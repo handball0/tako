@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/handball01/tako/console"
-	"github.com/handball01/tako/gint"
+	"github.com/handball0/tako/console"
+	"github.com/handball0/tako/gint"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"go.uber.org/zap"

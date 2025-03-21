@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/handball01/tako/console"
+	"github.com/handball0/tako/console"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

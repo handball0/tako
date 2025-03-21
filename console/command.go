@@ -113,7 +113,7 @@ func executeCommands(cmd *cobra.Command, args []string) error {
 	mu.RLock()
 	defer mu.RUnlock()
 	if mapCommand["Gint"] != nil {
-		return fmt.Errorf("请务必在入口函数 `main()` 中通过 `_ github.com/handball01/tako/gint` 加载tako模块")
+		return fmt.Errorf("请务必在入口函数 `main()` 中通过 `_ github.com/handball0/tako/gint` 加载tako模块")
 	}
 
 	commands := sortCommandsByPriority()
