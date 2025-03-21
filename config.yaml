@@ -1,0 +1,16 @@
+Database:
+  Type: mysql
+  Host: localhost
+  Port: 3306
+  Username: root
+  Password: password
+  Database: my_app
+  Charset: utf8mb4
+  MaxIdleConn: 10
+  MaxConn: 100
+  LogLevel: 3
+  SlowThreshold: 200
+  EnableLogWriter: true
+  AutoInit: true
+  AutoMigrate: true
+  TablePrefix: "t_"
